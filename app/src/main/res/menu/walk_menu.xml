@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_module_view"
+        android:title="Module"
+        android:icon="@drawable/ic_view_module_white_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_list_view"
+        android:title="List"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_column_view"
+        android:title="Column"
+        android:icon="@drawable/ic_view_column_white_24dp"
+        app:showAsAction="always" />
+</menu>

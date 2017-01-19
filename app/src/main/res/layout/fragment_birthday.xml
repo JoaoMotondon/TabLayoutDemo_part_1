@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingTop="50dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/go_to_cars_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="32dp"
+        android:text="Go to [Cars] tab"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/tv_name"/>
+
+    <TextView
+        android:id="@+id/go_to_chat_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Go to [Chat] tab"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/tv_name"/>
+
+    <TextView
+        android:id="@+id/go_to_walk_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Go to [Walk] tab"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/tv_name"/>
+
+    <TextView
+        android:id="@+id/go_to_people_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Go to [People] tab"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/tv_name"/>
+
+</LinearLayout>

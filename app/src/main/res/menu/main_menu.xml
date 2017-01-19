@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_icon_position"
+        android:title="Icon Position">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_icon_position_top"
+                    android:checked="false"
+                    android:title="Top"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/menu_icon_position_right"
+                    android:checked="false"
+                    android:title="Right"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/menu_icon_position_bottom"
+                    android:checked="false"
+                    android:title="Bottom"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/menu_icon_position_left"
+                    android:checked="false"
+                    android:title="Left"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/menu_icon_position_no_icon"
+                    android:checked="true"
+                    android:title="No Icon"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/menu_icon_position_only_icon"
+                    android:checked="false"
+                    android:title="Only Icon"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_tab_style"
+        android:title="Tab Style">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_fixed_fill_tab"
+                    android:checked="false"
+                    android:title="Fixed Fill Tab"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/menu_fixed_center_tab"
+                    android:checked="false"
+                    android:title="Fixed Center Tab"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/menu_scrollable_tab"
+                    android:checked="true"
+                    android:title="Scrollable Tab"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_tab_indicator_color"
+        android:title="Tab Indicator Color">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_tab_indicator_white"
+                    android:checked="true"
+                    android:title="White Tab Indicator"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/menu_tab_indicator_black"
+                    android:checked="false"
+                    android:title="Black Tab Indicator"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_tab_indicator_size"
+        android:title="Tab Indicator Size">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_tab_indicator_small"
+                    android:checked="false"
+                    android:title="Small Tab Indicator"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/menu_tab_indicator_medium"
+                    android:checked="true"
+                    android:title="Medium Tab Indicator"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/menu_tab_indicator_large"
+                    android:checked="false"
+                    android:title="Large Tab Indicator"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TabLayoutDemo - Part 1</string>
+    <string name="birthday">Birthday</string>
+    <string name="chat">Chat</string>
+    <string name="walk">Walk</string>
+    <string name="people">People</string>
+    <string name="pictures">Pictures</string>
+    <string name="calls">Calls</string>
+    <string name="videos">Videos</string>
+</resources>
